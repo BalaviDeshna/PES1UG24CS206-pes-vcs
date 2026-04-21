@@ -1,54 +1,92 @@
 # PES-VCS Lab Submission
 
 **Name:** K B Balavideshna 
+
 **SRN:** PES1UG24CS206 
+
 **Course:** UE24CS242B
 
+
 ---
+
 
 ## Required code files
+
 object.c:	Object store implementation
+
 tree.c:	Tree serialization and construction
+
 index.c:	Staging area implementation
+
 commit.c:	Commit creation and history walking
 
+
 ---
+
 
 ## Screenshots
 
+
 ### Phase 1
+
 - Screenshot 1A
+  
   ![1a](screenshots/1A.png)
+  
 - Screenshot 1B
+  
   ![1b](screenshots/1B.png)
 
+
 ### Phase 2
+
 - Screenshot 2A
+  
   ![2a](screenshots/2A.png)
+  
 - Screenshot 2B
+  
   ![2b](screenshots/2B.png)
+  
 
 ### Phase 3
+
 - Screenshot 3A
+
   ![3a](screenshots/3A.png)
+  
 - Screenshot 3B
+  
   ![3b](screenshots/3B.png)
 
+
 ### Phase 4
+
 - Screenshot 4A
+  
   ![4a](screenshots/4A.png)
+  
 - Screenshot 4B
+  
   ![4b](screenshots/4B.png)
+  
 - Screenshot 4C
+  
   ![4c](screenshots/4C.png)
+  
 
 ### Final screenshots
+
   ![final1](screenshots/final1.png)
+  
   ![final2](screenshots/final2.png)
+
   
 ---
 
+
 ## Questions
+
 
 ### Q5.1
 A branch in this system is simply a file inside .pes/refs/heads/ that stores the latest commit hash. The HEAD file points to one of these branches. So, implementing pes checkout <branch> mainly involves updating what HEAD points to and then updating the working directory to match the selected branch.
