@@ -147,4 +147,9 @@ int tree_from_index(ObjectID *id_out) {
         strcpy(te->name, e->path);
         te->hash = e->hash;
     }
+
+    void *data;
+    size_t len;
+
+    if (tree_serialize(&tree, &data, &len) != 0) return -1;
 }
